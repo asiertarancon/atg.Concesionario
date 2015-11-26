@@ -9,6 +9,8 @@ namespace atg.Concesionario.Domain.Vehicles
 {
     public class Vehicle : Entity
     {
-
+        public string Brand { get; set; }
+        public string Model { get; set; }
+        public int Horsepower { get; set; }
     }
 }

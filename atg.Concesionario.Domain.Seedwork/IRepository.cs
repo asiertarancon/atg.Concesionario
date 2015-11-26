@@ -14,11 +14,9 @@ namespace atg.Concesionario.Domain.Seedwork
         IUnitOfWork UnitOfWork { get; }
 
         /// <summary>
-        /// Return a queryable object for all graphs. This method
-        /// represents the foundation of LET (layered-expression-trees):
-        /// you build one query through the layers (not tiers!)
+        /// Return a list object. 
         /// </summary>
-        /// <returns>IQueryable (query, not data)</returns>
+        /// <returns>IList</returns>
         IList<TAggregate> FindAll();
 
         /// <summary>

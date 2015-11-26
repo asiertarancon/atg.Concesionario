@@ -10,6 +10,6 @@ namespace atg.Concesionario.Domain.Repositories
 {
     public interface IBudgetRepository : IRepository<Budget>
     {
-
+        
     }
 }
