@@ -1,5 +1,7 @@
 ﻿using atg.Concesionario.Domain.Seedwork;
+using atg.Concesionario.Infrastructure.Crosscutting;
 using atg.Concesionario.Infrastructure.Persistence.Seedwork;
+using atg.Concesionario.Infrastructure.Persistence.Seedwork.Resources;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,24 +29,30 @@ namespace atg.Concesionario.Persistence.Seedwork
             }
         }
 
-        public bool Add(TEntity aggregate)
+        public virtual void Add(TEntity aggregate)
         {
             throw new NotImplementedException();
         }
 
-        public bool Delete(TEntity aggregate)
+        public virtual void Modify(TEntity aggregate)
         {
             throw new NotImplementedException();
         }
 
-        public IList<TEntity> FindAll()
+        public virtual void Delete(TEntity aggregate)
         {
             throw new NotImplementedException();
         }
 
-        public bool Save(TEntity aggregate)
+        public virtual IList<TEntity> FindById(int id)
         {
             throw new NotImplementedException();
         }
+
+        public virtual IList<TEntity> FindAll()
+        {
+            throw new NotImplementedException();
+        }
+
     }
 }

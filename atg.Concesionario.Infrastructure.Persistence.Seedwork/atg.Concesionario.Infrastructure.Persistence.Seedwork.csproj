@@ -43,12 +43,31 @@
     <Compile Include="IAdoNetUnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository.cs" />
+    <Compile Include="Resources\Messages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Messages.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\atg.Concesionario.Domain.Seedwork\atg.Concesionario.Domain.Seedwork.csproj">
       <Project>{7b278473-b651-435c-93ac-0b76bbba49a1}</Project>
       <Name>atg.Concesionario.Domain.Seedwork</Name>
     </ProjectReference>
+    <ProjectReference Include="..\atg.Concesionario.Infrastructure.Crosscutting.NetF\atg.Concesionario.Infrastructure.Crosscutting.NetF.csproj">
+      <Project>{17dd6cba-d04b-4350-a873-4261250ae460}</Project>
+      <Name>atg.Concesionario.Infrastructure.Crosscutting.NetF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\atg.Concesionario.Infrastructure.Crosscutting\atg.Concesionario.Infrastructure.Crosscutting.csproj">
+      <Project>{7cdaff65-14de-4f95-87b3-e453a1d7cd89}</Project>
+      <Name>atg.Concesionario.Infrastructure.Crosscutting</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Messages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Messages.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

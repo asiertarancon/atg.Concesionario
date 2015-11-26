@@ -49,10 +49,6 @@
       <Project>{d4e725e1-f163-417c-ae5c-d08d1a5ee4b8}</Project>
       <Name>atg.Concesionario.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\atg.Concesionario.Infrastructure\atg.Concesionario.Infrastructure.csproj">
-      <Project>{7110beb6-8bc2-4b22-8eb9-a0db8fd330ed}</Project>
-      <Name>atg.Concesionario.Infrastructure</Name>
-    </ProjectReference>
     <ProjectReference Include="..\atg.Concesionario.Persistence\atg.Concesionario.Persistence.csproj">
       <Project>{7b525c05-5180-48cc-8b45-ccfc55ef4d8f}</Project>
       <Name>atg.Concesionario.Persistence</Name>

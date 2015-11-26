@@ -13,33 +13,12 @@ namespace atg.Concesionario.Domain.Seedwork
         /// </summary>
         IUnitOfWork UnitOfWork { get; }
 
-        /// <summary>
-        /// Return a list object. 
-        /// </summary>
-        /// <returns>IList</returns>
         IList<TAggregate> FindAll();
+       
+        void Add(TAggregate aggregate);
+        
+        void Modify(TAggregate aggregate);
 
-        /// <summary>
-        /// Add an aggregate graph to the store.
-        /// </summary>
-        /// <param name="aggregate">Aggregate root object</param>
-        /// <returns>True if successful; False otherwise</returns>
-        bool Add(TAggregate aggregate);
-
-        /// <summary>
-        /// Save changes to an aggregate graph already in the store.
-        /// </summary>
-        /// <param name="aggregate">Aggregate root object</param>
-        /// <returns>True if successful; False otherwise</returns>
-        bool Save(TAggregate aggregate);
-
-        /// <summary>
-        /// Delete the entire graph rooted in the specified aggregate object. 
-        /// Cascading rules must be set at the DB level.
-        /// </summary>
-        /// <param name="aggregate">Aggregate root object</param>
-        /// <returns>True if successful; False otherwise</returns>
-        bool Delete(TAggregate aggregate);
-
+        void Delete(TAggregate aggregate);
     }
 }

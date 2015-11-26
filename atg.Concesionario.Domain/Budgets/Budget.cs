@@ -12,6 +12,7 @@ namespace atg.Concesionario.Domain.Orders
     public class Budget : Entity
     {
         public string State { get; set; }
+        public decimal Amount { get; set; }
         public Customer Customer { get; set; }
         public Vehicle Vehicle { get; set; }
     }
