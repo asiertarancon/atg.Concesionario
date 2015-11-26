@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "atg.Concesionario.PresentationLayer.WPF", "atg.Concesionario.PresentationLayer.WPF\atg.Concesionario.PresentationLayer.WPF.csproj", "{D6581079-616B-46D3-A1CD-8E7565CD3E6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "atg.Concesionario.Domain", "atg.Concesionario.Domain\atg.Concesionario.Domain.csproj", "{D4E725E1-F163-417C-AE5C-D08D1A5EE4B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation Layer", "Presentation Layer", "{60B933AB-8C53-4912-BF18-C561D12D0674}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain Layer", "Domain Layer", "{F591EA63-4C17-462E-9D57-C83D5F6B1D96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure Layer", "Infrastructure Layer", "{66EBEB99-D3D8-4F3F-8FCE-9A1DA0DF4981}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "atg.Concesionario.Persistence", "atg.Concesionario.Persistence\atg.Concesionario.Persistence.csproj", "{7B525C05-5180-48CC-8B45-CCFC55EF4D8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "atg.Concesionario.Infrastructure", "atg.Concesionario.Infrastructure\atg.Concesionario.Infrastructure.csproj", "{7110BEB6-8BC2-4B22-8EB9-A0DB8FD330ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "atg.Concesionario.Application", "atg.Concesionario.Application\atg.Concesionario.Application.csproj", "{D8226904-C352-4209-8F56-30AC48783B09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Architecture", "Architecture", "{F5426F1F-FB30-4C2F-B4BB-2854CD9E7BC6}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject", "ModelingProject\ModelingProject.modelproj", "{033F99B3-220E-4DA7-9FED-C74D4925534B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "atg.Concesionario.Domain.Seedwork", "atg.Concesionario.Domain.Seedwork\atg.Concesionario.Domain.Seedwork.csproj", "{7B278473-B651-435C-93AC-0B76BBBA49A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "atg.Concesionario.Infrastructure.Persistence.Seedwork", "atg.Concesionario.Infrastructure.Persistence.Seedwork\atg.Concesionario.Infrastructure.Persistence.Seedwork.csproj", "{0636CAD1-9079-46D8-905E-E327E9792B48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6581079-616B-46D3-A1CD-8E7565CD3E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6581079-616B-46D3-A1CD-8E7565CD3E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6581079-616B-46D3-A1CD-8E7565CD3E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6581079-616B-46D3-A1CD-8E7565CD3E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4E725E1-F163-417C-AE5C-D08D1A5EE4B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4E725E1-F163-417C-AE5C-D08D1A5EE4B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4E725E1-F163-417C-AE5C-D08D1A5EE4B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4E725E1-F163-417C-AE5C-D08D1A5EE4B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B525C05-5180-48CC-8B45-CCFC55EF4D8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B525C05-5180-48CC-8B45-CCFC55EF4D8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B525C05-5180-48CC-8B45-CCFC55EF4D8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B525C05-5180-48CC-8B45-CCFC55EF4D8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7110BEB6-8BC2-4B22-8EB9-A0DB8FD330ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7110BEB6-8BC2-4B22-8EB9-A0DB8FD330ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7110BEB6-8BC2-4B22-8EB9-A0DB8FD330ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7110BEB6-8BC2-4B22-8EB9-A0DB8FD330ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8226904-C352-4209-8F56-30AC48783B09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8226904-C352-4209-8F56-30AC48783B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8226904-C352-4209-8F56-30AC48783B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8226904-C352-4209-8F56-30AC48783B09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{033F99B3-220E-4DA7-9FED-C74D4925534B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{033F99B3-220E-4DA7-9FED-C74D4925534B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{033F99B3-220E-4DA7-9FED-C74D4925534B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{033F99B3-220E-4DA7-9FED-C74D4925534B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B278473-B651-435C-93AC-0B76BBBA49A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B278473-B651-435C-93AC-0B76BBBA49A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B278473-B651-435C-93AC-0B76BBBA49A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B278473-B651-435C-93AC-0B76BBBA49A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0636CAD1-9079-46D8-905E-E327E9792B48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0636CAD1-9079-46D8-905E-E327E9792B48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0636CAD1-9079-46D8-905E-E327E9792B48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0636CAD1-9079-46D8-905E-E327E9792B48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D6581079-616B-46D3-A1CD-8E7565CD3E6A} = {60B933AB-8C53-4912-BF18-C561D12D0674}
+		{D4E725E1-F163-417C-AE5C-D08D1A5EE4B8} = {F591EA63-4C17-462E-9D57-C83D5F6B1D96}
+		{7B525C05-5180-48CC-8B45-CCFC55EF4D8F} = {66EBEB99-D3D8-4F3F-8FCE-9A1DA0DF4981}
+		{7110BEB6-8BC2-4B22-8EB9-A0DB8FD330ED} = {66EBEB99-D3D8-4F3F-8FCE-9A1DA0DF4981}
+		{D8226904-C352-4209-8F56-30AC48783B09} = {60B933AB-8C53-4912-BF18-C561D12D0674}
+		{033F99B3-220E-4DA7-9FED-C74D4925534B} = {F5426F1F-FB30-4C2F-B4BB-2854CD9E7BC6}
+		{7B278473-B651-435C-93AC-0B76BBBA49A1} = {F591EA63-4C17-462E-9D57-C83D5F6B1D96}
+		{0636CAD1-9079-46D8-905E-E327E9792B48} = {66EBEB99-D3D8-4F3F-8FCE-9A1DA0DF4981}
+	EndGlobalSection
+EndGlobal
