@@ -1,4 +1,5 @@
 ﻿using atg.Concesionario.Domain.Seedwork;
+using atg.Concesionario.Infrastructure.Persistence.Seedwork;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace atg.Concesionario.Persistence.UnitOfWork
 {
-    public class AdoNetUnitOfWork : IUnitOfWork
+    public class AdoNetUnitOfWork : IAdoNetUnitOfWork
     {
         IDbConnection _connection;
         bool _ownsConnection;
@@ -20,6 +21,9 @@ namespace atg.Concesionario.Persistence.UnitOfWork
             _ownsConnection = ownsConnection;
             _transaction = connection.BeginTransaction();
         }
+
+        public IDbConnection Connection { get { return _connection; } }
+        public IDbTransaction Transaction { get { return _transaction; } }
 
         public void SaveChanges()
         {

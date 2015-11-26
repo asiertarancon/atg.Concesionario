@@ -2,34 +2,53 @@
 <DirectedGraph DataVirtualized="True" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
   <Nodes>
     <Node Id="(@3 Namespace=atg.Concesionario.Persistence.Facade)" Category="CodeSchema_Namespace" Bounds="77.6607013083635,42.086103630734,252.47,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="atg‎.Concesionario‎.Persistence‎.Facade" UseManualLocation="True" />
-    <Node Id="@10" Category="CodeSchema_Assembly" Bounds="-41.5769824241347,-74.5999789105338,233.13,25" CodeSchemaProperty_StrongName="atg.Concesionario.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(d8226904-c352-4209-8f56-30ac48783b09.OutputPath)" Group="Collapsed" Label="atg.Concesionario.Application.dll" />
-    <Node Id="@11" Category="CodeSchema_Namespace" Bounds="77.6607013083635,97.086103630734,280.653333333333,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="atg‎.Concesionario‎.Persistence‎.Repositories" UseManualLocation="True" />
-    <Node Id="@2" Category="CodeSchema_Assembly" Bounds="-74.9653157574683,-129.599979000914,299.906666666667,25" CodeSchemaProperty_StrongName="atg.Concesionario.PresentationLayer.WPF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(d6581079-616b-46d3-a1cd-8e7565cd3e6a.OutputPath)" Group="Collapsed" Label="atg.Concesionario.PresentationLayer.WPF.exe">
+    <Node Id="@10" Category="CodeSchema_Assembly" Bounds="-233.345910885077,418.489320120567,269.043333333334,25" CodeSchemaProperty_StrongName="atg.Concesionario.Domain.Seedwork, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(7b278473-b651-435c-93ac-0b76bbba49a1.OutputPath)" Group="Collapsed" Label="atg.Concesionario.Domain.Seedwork.dll" />
+    <Node Id="@12" Category="CodeSchema_Assembly" Bounds="-206.129244218409,363.489320098006,214.61,25" CodeSchemaProperty_StrongName="atg.Concesionario.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(d4e725e1-f163-417c-ae5c-d08d1a5ee4b8.OutputPath)" Group="Collapsed" Label="atg.Concesionario.Domain.dll" />
+    <Node Id="@14" Category="CodeSchema_Assembly" Bounds="37.7377440699233,67.511329647189,233.13,25" CodeSchemaProperty_StrongName="atg.Concesionario.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(d8226904-c352-4209-8f56-30ac48783b09.OutputPath)" Group="Collapsed" Label="atg.Concesionario.Application.dll" />
+    <Node Id="@15" Category="CodeSchema_Namespace" Bounds="77.6607013083635,97.086103630734,280.653333333333,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="atg‎.Concesionario‎.Persistence‎.Repositories" UseManualLocation="True" />
+    <Node Id="@2" Category="CodeSchema_Assembly" Bounds="4.34941073658968,12.511329607989,299.906666666667,25" CodeSchemaProperty_StrongName="atg.Concesionario.PresentationLayer.WPF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(d6581079-616b-46d3-a1cd-8e7565cd3e6a.OutputPath)" Group="Collapsed" Label="atg.Concesionario.PresentationLayer.WPF.exe">
       <Category Ref="CodeMap_WpfProject" />
     </Node>
-    <Node Id="@4" Category="CodeSchema_Assembly" Bounds="181.468184899811,169.399596480173,231.8,25" CodeSchemaProperty_StrongName="atg.Concesionario.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="2" FilePath="$(7b525c05-5180-48cc-8b45-ccfc55ef4d8f.OutputPath)" Group="Collapsed" Label="atg.Concesionario.Persistence.dll" UseManualLocation="True" />
-    <Node Id="@6" Category="CodeSchema_Assembly" Bounds="183.490931353145,233.929119969182,244.02,25" CodeSchemaProperty_StrongName="atg.Concesionario.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(7110beb6-8bc2-4b22-8eb9-a0db8fd330ed.OutputPath)" Group="Collapsed" Label="atg.Concesionario.Infrastructure.dll" UseManualLocation="True" />
-    <Node Id="@8" Category="CodeSchema_Assembly" Bounds="-206.414799816263,171.938538694525,214.61,25" CodeSchemaProperty_StrongName="atg.Concesionario.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(d4e725e1-f163-417c-ae5c-d08d1a5ee4b8.OutputPath)" Group="Collapsed" Label="atg.Concesionario.Domain.dll" />
-    <Node Id="Domain Layer{F591EA63-4C17-462E-9D57-C83D5F6B1D96}" Category="CodeMap_SolutionFolder" Bounds="-226.417837169009,131.929311627067,254.61,85.0002" Group="Expanded" Label="Domain Layer" UseManualLocation="True" />
-    <Node Id="Infrastructure Layer{66EBEB99-D3D8-4F3F-8FCE-9A1DA0DF4981}" Category="CodeMap_SolutionFolder" Bounds="161.468184899811,129.399496480173,286.042746453334,149.529723489009" Group="Expanded" Label="Infrastructure Layer" UseManualLocation="True" />
-    <Node Id="Presentation Layer{60B933AB-8C53-4912-BF18-C561D12D0674}" Category="CodeMap_SolutionFolder" Bounds="-94.9653157574683,-169.600412157122,339.906666666667,140.0003" Group="Expanded" Label="Presentation Layer" UseManualLocation="True" />
+    <Node Id="@4" Category="CodeSchema_Assembly" Bounds="400.486945028486,191.525456093458,231.8,25" CodeSchemaProperty_StrongName="atg.Concesionario.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="2" FilePath="$(7b525c05-5180-48cc-8b45-ccfc55ef4d8f.OutputPath)" Group="Collapsed" Label="atg.Concesionario.Persistence.dll" />
+    <Node Id="@6" Category="CodeSchema_Assembly" Bounds="336.498704921819,301.503896132658,244.02,25" CodeSchemaProperty_StrongName="atg.Concesionario.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(7110beb6-8bc2-4b22-8eb9-a0db8fd330ed.OutputPath)" Group="Collapsed" Label="atg.Concesionario.Infrastructure.dll" />
+    <Node Id="@8" Category="CodeSchema_Assembly" Bounds="336.490864921819,246.488216054258,359.826666666667,25" CodeSchemaProperty_StrongName="atg.Concesionario.Infrastructure.Persistence.Seedwork, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(0636cad1-9079-46d8-905e-e327e9792b48.OutputPath)" Group="Collapsed" Label="atg.Concesionario.Infrastructure.Persistence.Seedwork.dll" />
+    <Node Id="Domain Layer{F591EA63-4C17-462E-9D57-C83D5F6B1D96}" Category="CodeMap_SolutionFolder" Bounds="-253.345910885076,323.489220098006,309.043333333333,140.0003" Group="Expanded" Label="Domain Layer" UseManualLocation="True" />
+    <Node Id="Infrastructure Layer{66EBEB99-D3D8-4F3F-8FCE-9A1DA0DF4981}" Category="CodeMap_SolutionFolder" Bounds="316.490864921819,151.510779941205,399.781270453333,194.9784401176" Group="Expanded" Label="Infrastructure Layer" UseManualLocation="True" />
+    <Node Id="Presentation Layer{60B933AB-8C53-4912-BF18-C561D12D0674}" Category="CodeMap_SolutionFolder" Bounds="-15.6505892634103,-27.4892202155944,339.906666666667,140.0003" Group="Expanded" Label="Presentation Layer" />
   </Nodes>
   <Links>
-    <Link Source="@10" Target="@4" Category="CodeMap_ProjectReference" Bounds="86.380464005734,-49.5999789105337,193.53283014377,212.347750914552" />
-    <Link Source="@10" Target="@6" Category="CodeMap_ProjectReference" Bounds="84.3272061084171,-49.5999789105337,206.447765510596,276.319196243631" />
-    <Link Source="@10" Target="@8" Category="CodeMap_ProjectReference" Bounds="-85.0911350095572,-49.5999789105337,151.252042166564,214.186799231915" />
-    <Link Source="@11" Target="@8" Category="References" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="15">
+    <Link Source="@12" Target="@10" Category="InheritsFrom" Bounds="-98.8242442184096,388.489320098006,1.13686837721616E-13,21.0000000225616" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="9">
+      <Category Ref="CodeMap_ProjectReference" />
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="Implements" />
+    </Link>
+    <Link Source="@14" Target="@12" Category="CodeMap_ProjectReference" Bounds="-85.0911350095572,-49.5999789105337,151.252042166564,214.186799231915" />
+    <Link Source="@14" Target="@4" Category="CodeMap_ProjectReference" Bounds="86.380464005734,-49.5999789105337,193.53283014377,212.347750914552" />
+    <Link Source="@14" Target="@6" Category="CodeMap_ProjectReference" Bounds="84.3272061084171,-49.5999789105337,206.447765510596,276.319196243631" />
+    <Link Source="@15" Target="@10" Category="Implements" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="3" />
+    <Link Source="@15" Target="@12" Category="References" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="15">
       <Category Ref="CodeSchema_ReturnTypeLink" />
       <Category Ref="Implements" />
     </Link>
-    <Link Source="@2" Target="@10" Category="CodeMap_ProjectReference" Bounds="74.9821397395846,-104.580351953109,1.13686837721616E-13,21.0000000392" />
+    <Link Source="@15" Target="@8" Category="InheritsFrom" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="7">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@2" Target="@14" Category="CodeMap_ProjectReference" Bounds="154.302749633789,37.5113296508789,0,21" />
     <Link Source="@4" Target="(@3 Namespace=atg.Concesionario.Persistence.Facade)" Category="Contains" FetchingParent="@4" />
-    <Link Source="@4" Target="@11" Category="Contains" FetchingParent="@4" />
-    <Link Source="@4" Target="@8" Category="CodeMap_ProjectReference" Bounds="-33.6596576129875,51.2971596292136,165.937178784351,191.702624644681" />
-    <Link Source="Domain Layer{F591EA63-4C17-462E-9D57-C83D5F6B1D96}" Target="@8" Category="Contains" FetchingParent="Domain Layer{F591EA63-4C17-462E-9D57-C83D5F6B1D96}" />
+    <Link Source="@4" Target="@10" Category="CodeMap_ProjectReference" />
+    <Link Source="@4" Target="@12" Category="CodeMap_ProjectReference" Bounds="-33.6596576129875,51.2971596292136,165.937178784351,191.702624644681" />
+    <Link Source="@4" Target="@15" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@8" Category="CodeMap_ProjectReference" />
+    <Link Source="@8" Target="@10" Category="Implements" Bounds="176.997961648266,262.473539941205,180.720275124157,193.438939849427" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="3">
+      <Category Ref="CodeMap_ProjectReference" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="Domain Layer{F591EA63-4C17-462E-9D57-C83D5F6B1D96}" Target="@10" Category="Contains" FetchingParent="Domain Layer{F591EA63-4C17-462E-9D57-C83D5F6B1D96}" />
+    <Link Source="Domain Layer{F591EA63-4C17-462E-9D57-C83D5F6B1D96}" Target="@12" Category="Contains" FetchingParent="Domain Layer{F591EA63-4C17-462E-9D57-C83D5F6B1D96}" />
     <Link Source="Infrastructure Layer{66EBEB99-D3D8-4F3F-8FCE-9A1DA0DF4981}" Target="@4" Category="Contains" FetchingParent="Infrastructure Layer{66EBEB99-D3D8-4F3F-8FCE-9A1DA0DF4981}" />
     <Link Source="Infrastructure Layer{66EBEB99-D3D8-4F3F-8FCE-9A1DA0DF4981}" Target="@6" Category="Contains" FetchingParent="Infrastructure Layer{66EBEB99-D3D8-4F3F-8FCE-9A1DA0DF4981}" />
-    <Link Source="Presentation Layer{60B933AB-8C53-4912-BF18-C561D12D0674}" Target="@10" Category="Contains" FetchingParent="Presentation Layer{60B933AB-8C53-4912-BF18-C561D12D0674}" />
+    <Link Source="Infrastructure Layer{66EBEB99-D3D8-4F3F-8FCE-9A1DA0DF4981}" Target="@8" Category="Contains" FetchingParent="Infrastructure Layer{66EBEB99-D3D8-4F3F-8FCE-9A1DA0DF4981}" />
+    <Link Source="Presentation Layer{60B933AB-8C53-4912-BF18-C561D12D0674}" Target="@14" Category="Contains" FetchingParent="Presentation Layer{60B933AB-8C53-4912-BF18-C561D12D0674}" />
     <Link Source="Presentation Layer{60B933AB-8C53-4912-BF18-C561D12D0674}" Target="@2" Category="Contains" FetchingParent="Presentation Layer{60B933AB-8C53-4912-BF18-C561D12D0674}" />
   </Links>
   <Categories>
@@ -37,11 +56,13 @@
     <Category Id="CodeMap_SolutionFolder" Label="Solution Folder" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Solution Folder" />
     <Category Id="CodeMap_WpfProject" Label="WPF Project" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="WPF Projects" />
     <Category Id="CodeSchema_Assembly" Label="Assembly" BasedOn="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Assembly" NavigationActionLabel="Assemblies" />
+    <Category Id="CodeSchema_Calls" Label="Calls" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Called By" OutgoingActionLabel="Calls" />
     <Category Id="CodeSchema_Namespace" Label="Namespace" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" Icon="CodeSchema_Namespace" NavigationActionLabel="Namespaces" />
     <Category Id="CodeSchema_ReturnTypeLink" Label="Return" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Return types" OutgoingActionLabel="Return types" />
     <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
     <Category Id="File" Label="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="File" NavigationActionLabel="Files" />
     <Category Id="Implements" Label="Implements" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Implemented by" OutgoingActionLabel="Implements" />
+    <Category Id="InheritsFrom" Label="Inherits From" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Inherited By" OutgoingActionLabel="Inherits From" />
     <Category Id="References" Label="References" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Referenced By" OutgoingActionLabel="References" />
   </Categories>
   <Properties>
@@ -59,7 +80,7 @@
     <Property Id="FilePath" Label="File Path" Description="File Path" DataType="System.String" />
     <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
     <Property Id="GroupLabel" DataType="System.String" />
-    <Property Id="Icon" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
     <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
     <Property Id="IsContainment" DataType="System.Boolean" />
     <Property Id="IsEnabled" DataType="System.Boolean" />
@@ -89,11 +110,15 @@
     <Alias n="4" Id="(@3)" />
     <Alias n="5" Uri="Assembly=$(7110beb6-8bc2-4b22-8eb9-a0db8fd330ed.OutputPathUri)" />
     <Alias n="6" Id="(@5)" />
-    <Alias n="7" Uri="Assembly=$(d4e725e1-f163-417c-ae5c-d08d1a5ee4b8.OutputPathUri)" />
+    <Alias n="7" Uri="Assembly=$(0636cad1-9079-46d8-905e-e327e9792b48.OutputPathUri)" />
     <Alias n="8" Id="(@7)" />
-    <Alias n="9" Uri="Assembly=$(d8226904-c352-4209-8f56-30ac48783b09.OutputPathUri)" />
+    <Alias n="9" Uri="Assembly=$(7b278473-b651-435c-93ac-0b76bbba49a1.OutputPathUri)" />
     <Alias n="10" Id="(@9)" />
-    <Alias n="11" Id="(@3 Namespace=atg.Concesionario.Persistence.Repositories)" />
+    <Alias n="11" Uri="Assembly=$(d4e725e1-f163-417c-ae5c-d08d1a5ee4b8.OutputPathUri)" />
+    <Alias n="12" Id="(@11)" />
+    <Alias n="13" Uri="Assembly=$(d8226904-c352-4209-8f56-30ac48783b09.OutputPathUri)" />
+    <Alias n="14" Id="(@13)" />
+    <Alias n="15" Id="(@3 Namespace=atg.Concesionario.Persistence.Repositories)" />
   </IdentifierAliases>
   <Styles>
     <Style TargetType="Node" GroupLabel="Results" ValueLabel="True">
@@ -313,8 +338,12 @@
     </Style>
   </Styles>
   <Paths>
+    <Path Id="0636cad1-9079-46d8-905e-e327e9792b48.OutputPath" Value="C:\Users\Asier\Documents\Visual Studio 2015\Projects\atg.Concesionario\atg.Concesionario.Infrastructure.Persistence.Seedwork\bin\Debug\atg.Concesionario.Infrastructure.Persistence.Seedwork.dll" />
+    <Path Id="0636cad1-9079-46d8-905e-e327e9792b48.OutputPathUri" Value="file:///C:/Users/Asier/Documents/Visual Studio 2015/Projects/atg.Concesionario/atg.Concesionario.Infrastructure.Persistence.Seedwork/bin/Debug/atg.Concesionario.Infrastructure.Persistence.Seedwork.dll" />
     <Path Id="7110beb6-8bc2-4b22-8eb9-a0db8fd330ed.OutputPath" Value="C:\Users\Asier\Documents\Visual Studio 2015\Projects\atg.Concesionario\atg.Concesionario.Infrastructure\bin\Debug\atg.Concesionario.Infrastructure.dll" />
     <Path Id="7110beb6-8bc2-4b22-8eb9-a0db8fd330ed.OutputPathUri" Value="file:///C:/Users/Asier/Documents/Visual Studio 2015/Projects/atg.Concesionario/atg.Concesionario.Infrastructure/bin/Debug/atg.Concesionario.Infrastructure.dll" />
+    <Path Id="7b278473-b651-435c-93ac-0b76bbba49a1.OutputPath" Value="C:\Users\Asier\Documents\Visual Studio 2015\Projects\atg.Concesionario\atg.Concesionario.Domain.Seedwork\bin\Debug\atg.Concesionario.Domain.Seedwork.dll" />
+    <Path Id="7b278473-b651-435c-93ac-0b76bbba49a1.OutputPathUri" Value="file:///C:/Users/Asier/Documents/Visual Studio 2015/Projects/atg.Concesionario/atg.Concesionario.Domain.Seedwork/bin/Debug/atg.Concesionario.Domain.Seedwork.dll" />
     <Path Id="7b525c05-5180-48cc-8b45-ccfc55ef4d8f.OutputPath" Value="C:\Users\Asier\Documents\Visual Studio 2015\Projects\atg.Concesionario\atg.Concesionario.Persistence\bin\Debug\atg.Concesionario.Persistence.dll" />
     <Path Id="7b525c05-5180-48cc-8b45-ccfc55ef4d8f.OutputPathUri" Value="file:///C:/Users/Asier/Documents/Visual Studio 2015/Projects/atg.Concesionario/atg.Concesionario.Persistence/bin/Debug/atg.Concesionario.Persistence.dll" />
     <Path Id="d4e725e1-f163-417c-ae5c-d08d1a5ee4b8.OutputPath" Value="C:\Users\Asier\Documents\Visual Studio 2015\Projects\atg.Concesionario\atg.Concesionario.Domain\bin\Debug\atg.Concesionario.Domain.dll" />

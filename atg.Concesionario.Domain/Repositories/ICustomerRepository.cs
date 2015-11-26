@@ -10,6 +10,6 @@ namespace atg.Concesionario.Domain.Repositories
 {
     public interface ICustomerRepository : IRepository<Customer>
     {
-        Customer FindById(string id);
+        Customer FindById(int id);
     }
 }

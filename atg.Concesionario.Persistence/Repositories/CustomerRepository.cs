@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 using atg.Concesionario.Domain.Customers;
 using atg.Concesionario.Persistence.Seedwork;
 using atg.Concesionario.Persistence.UnitOfWork;
+using System.Data.SqlClient;
+using System.Data;
+using AutoMapper;
 
 namespace atg.Concesionario.Persistence.Repositories
 {
@@ -22,9 +25,20 @@ namespace atg.Concesionario.Persistence.Repositories
 
         }
 
-        public Customer FindById(string id)
+        public Customer FindById(int id)
         {
-            throw new NotImplementedException();
+            using (var cmd = (UnitOfWork as AdoNetUnitOfWork).CreateCommand())
+            {
+                var command = cmd as SqlCommand;
+                command.CommandText = "SELECT * FROM Vehicles WHERE Id = @id";
+                command.Parameters.Add(new SqlParameter("@Id", SqlDbType.Int) { Value = id });
+
+                using (var reader = command.ExecuteReader())
+                    if (reader.HasRows)
+                        return Mapper.DynamicMap<IDataReader, Customer>(reader);
+
+            }
+            return null;
         }
     }
 }

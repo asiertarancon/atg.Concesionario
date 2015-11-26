@@ -1,4 +1,5 @@
 ﻿using atg.Concesionario.Domain.Seedwork;
+using atg.Concesionario.Infrastructure.Persistence.Seedwork;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,14 +11,14 @@ namespace atg.Concesionario.Persistence.Seedwork
     public class Repository<TEntity> : IRepository<TEntity>
         where TEntity : Entity
     {
-        public Repository(IUnitOfWork unitOfWork)
+        public Repository(IAdoNetUnitOfWork unitOfWork)
         {
-            if (unitOfWork == (IUnitOfWork)null)
+            if (unitOfWork == (IAdoNetUnitOfWork)null)
                 throw new ArgumentNullException("unitOfWork");
             _UnitOfWork = unitOfWork;
         }
 
-        IUnitOfWork _UnitOfWork;        
+        IAdoNetUnitOfWork _UnitOfWork;        
         public IUnitOfWork UnitOfWork
         {
             get
