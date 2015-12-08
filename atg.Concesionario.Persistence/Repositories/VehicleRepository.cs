@@ -1,4 +1,4 @@
-﻿using atg.Concesionario.Domain.Repositories;
+﻿using atg.Concesionario.Domain.Contracts.Repositories;
 using atg.Concesionario.Domain.Vehicles;
 using atg.Concesionario.Persistence.Seedwork;
 using atg.Concesionario.Persistence.UnitOfWork;

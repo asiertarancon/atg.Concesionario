@@ -1,6 +1,6 @@
 ﻿using atg.Concesionario.Domain.Customers;
-using atg.Concesionario.Domain.Seedwork;
 using atg.Concesionario.Domain.Vehicles;
+using atg.Concesionario.Domain.Seedwork;
 using System;
 using System.Collections.Generic;
 using System.Linq;

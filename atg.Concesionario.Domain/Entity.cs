@@ -1,4 +1,4 @@
-﻿namespace atg.Concesionario.Domain.Seedwork
+﻿namespace atg.Concesionario.Domain
 {
     public class Entity
     {

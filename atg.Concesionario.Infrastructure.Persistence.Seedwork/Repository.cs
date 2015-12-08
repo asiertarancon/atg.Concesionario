@@ -1,4 +1,5 @@
-﻿using atg.Concesionario.Domain.Seedwork;
+﻿using atg.Concesionario.Domain;
+using atg.Concesionario.Domain.Seedwork;
 using atg.Concesionario.Infrastructure.Crosscutting;
 using atg.Concesionario.Infrastructure.Persistence.Seedwork;
 using atg.Concesionario.Infrastructure.Persistence.Seedwork.Resources;

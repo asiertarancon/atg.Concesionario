@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7B525C05-5180-48CC-8B45-CCFC55EF4D8F}</ProjectGuid>
+    <ProjectGuid>{35D6380E-5643-41C7-8546-89BE1EACED5C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>atg.Concesionario.Persistence</RootNamespace>
-    <AssemblyName>atg.Concesionario.Persistence</AssemblyName>
+    <RootNamespace>atg.Concesionario.Domain.Contracts</RootNamespace>
+    <AssemblyName>atg.Concesionario.Domain.Contracts</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -30,10 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AutoMapper, Version=4.1.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
-      <HintPath>..\packages\AutoMapper.4.1.1\lib\net45\AutoMapper.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -45,16 +42,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repositories\CustomerRepository.cs" />
-    <Compile Include="Repositories\BudgetRepository.cs" />
-    <Compile Include="Repositories\VehicleRepository.cs" />
-    <Compile Include="UnitOfWork\AdoNetUnitOfWork.cs" />
+    <Compile Include="Repositories\IBudgetRepository.cs" />
+    <Compile Include="Repositories\ICustomerRepository.cs" />
+    <Compile Include="Repositories\IVehicleRepository.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\atg.Concesionario.Domain.Contracts\atg.Concesionario.Domain.Contracts.csproj">
-      <Project>{35d6380e-5643-41c7-8546-89be1eaced5c}</Project>
-      <Name>atg.Concesionario.Domain.Contracts</Name>
-    </ProjectReference>
     <ProjectReference Include="..\atg.Concesionario.Domain.Seedwork\atg.Concesionario.Domain.Seedwork.csproj">
       <Project>{7b278473-b651-435c-93ac-0b76bbba49a1}</Project>
       <Name>atg.Concesionario.Domain.Seedwork</Name>
@@ -63,22 +55,6 @@
       <Project>{d4e725e1-f163-417c-ae5c-d08d1a5ee4b8}</Project>
       <Name>atg.Concesionario.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\atg.Concesionario.Infrastructure.Crosscutting.NetF\atg.Concesionario.Infrastructure.Crosscutting.NetF.csproj">
-      <Project>{17dd6cba-d04b-4350-a873-4261250ae460}</Project>
-      <Name>atg.Concesionario.Infrastructure.Crosscutting.NetF</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\atg.Concesionario.Infrastructure.Crosscutting\atg.Concesionario.Infrastructure.Crosscutting.csproj">
-      <Project>{7cdaff65-14de-4f95-87b3-e453a1d7cd89}</Project>
-      <Name>atg.Concesionario.Infrastructure.Crosscutting</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\atg.Concesionario.Infrastructure.Persistence.Seedwork\atg.Concesionario.Infrastructure.Persistence.Seedwork.csproj">
-      <Project>{0636cad1-9079-46d8-905e-e327e9792b48}</Project>
-      <Name>atg.Concesionario.Infrastructure.Persistence.Seedwork</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup />
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

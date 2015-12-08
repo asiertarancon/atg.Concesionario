@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "atg.Concesionario.PresentationLayer.WPF", "atg.Concesionario.PresentationLayer.WPF\atg.Concesionario.PresentationLayer.WPF.csproj", "{D6581079-616B-46D3-A1CD-8E7565CD3E6A}"
 EndProject
@@ -32,6 +32,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "atg.Concesionario.Infrastructure.Crosscutting", "atg.Concesionario.Infrastructure.Crosscutting\atg.Concesionario.Infrastructure.Crosscutting.csproj", "{7CDAFF65-14DE-4F95-87B3-E453A1D7CD89}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "atg.Concesionario.Infrastructure.Crosscutting.NetF", "atg.Concesionario.Infrastructure.Crosscutting.NetF\atg.Concesionario.Infrastructure.Crosscutting.NetF.csproj", "{17DD6CBA-D04B-4350-A873-4261250AE460}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "atg.Concesionario.Domain.Contracts", "atg.Concesionario.Domain.Contracts\atg.Concesionario.Domain.Contracts.csproj", "{35D6380E-5643-41C7-8546-89BE1EACED5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "atg.Concesionario.Domain.Services", "atg.Concesionario.Domain.Services\atg.Concesionario.Domain.Services.csproj", "{1F0E5C56-E7A8-409C-BC03-AB88C30663A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +79,14 @@ Global
 		{17DD6CBA-D04B-4350-A873-4261250AE460}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17DD6CBA-D04B-4350-A873-4261250AE460}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17DD6CBA-D04B-4350-A873-4261250AE460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35D6380E-5643-41C7-8546-89BE1EACED5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35D6380E-5643-41C7-8546-89BE1EACED5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35D6380E-5643-41C7-8546-89BE1EACED5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35D6380E-5643-41C7-8546-89BE1EACED5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F0E5C56-E7A8-409C-BC03-AB88C30663A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F0E5C56-E7A8-409C-BC03-AB88C30663A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F0E5C56-E7A8-409C-BC03-AB88C30663A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F0E5C56-E7A8-409C-BC03-AB88C30663A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,5 +103,7 @@ Global
 		{931A531B-98AA-48E1-B3AE-62085F5E5FB6} = {66EBEB99-D3D8-4F3F-8FCE-9A1DA0DF4981}
 		{7CDAFF65-14DE-4F95-87B3-E453A1D7CD89} = {931A531B-98AA-48E1-B3AE-62085F5E5FB6}
 		{17DD6CBA-D04B-4350-A873-4261250AE460} = {931A531B-98AA-48E1-B3AE-62085F5E5FB6}
+		{35D6380E-5643-41C7-8546-89BE1EACED5C} = {F591EA63-4C17-462E-9D57-C83D5F6B1D96}
+		{1F0E5C56-E7A8-409C-BC03-AB88C30663A9} = {F591EA63-4C17-462E-9D57-C83D5F6B1D96}
 	EndGlobalSection
 EndGlobal
