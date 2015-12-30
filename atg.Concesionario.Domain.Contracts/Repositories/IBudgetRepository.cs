@@ -1,5 +1,4 @@
-﻿using atg.Concesionario.Domain.Orders;
-using atg.Concesionario.Domain.Seedwork;
+﻿using atg.Concesionario.Domain.Budgets;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace atg.Concesionario.Domain.Contracts.Repositories
 {
-    public interface IBudgetRepository : IRepository<Budget>
+    public interface IBudgetRepository : IGenericRepository<Budget>
     {
         
     }

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace atg.Concesionario.Domain.Services
+namespace atg.Concesionario.Application.Common
 {
-    public interface IClientService
+    public interface IService
     {
     }
 }

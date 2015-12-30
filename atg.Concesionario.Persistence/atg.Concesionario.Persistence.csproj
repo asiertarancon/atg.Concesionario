@@ -34,7 +34,16 @@
       <HintPath>..\packages\AutoMapper.4.1.1\lib\net45\AutoMapper.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -44,20 +53,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AuthorizedDealerDBContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\CustomerRepository.cs" />
     <Compile Include="Repositories\BudgetRepository.cs" />
+    <Compile Include="Repositories\Repository.cs" />
     <Compile Include="Repositories\VehicleRepository.cs" />
-    <Compile Include="UnitOfWork\AdoNetUnitOfWork.cs" />
+    <Compile Include="UnitOfWork\EFUnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\atg.Concesionario.Domain.Contracts\atg.Concesionario.Domain.Contracts.csproj">
       <Project>{35d6380e-5643-41c7-8546-89be1eaced5c}</Project>
       <Name>atg.Concesionario.Domain.Contracts</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\atg.Concesionario.Domain.Seedwork\atg.Concesionario.Domain.Seedwork.csproj">
-      <Project>{7b278473-b651-435c-93ac-0b76bbba49a1}</Project>
-      <Name>atg.Concesionario.Domain.Seedwork</Name>
     </ProjectReference>
     <ProjectReference Include="..\atg.Concesionario.Domain\atg.Concesionario.Domain.csproj">
       <Project>{d4e725e1-f163-417c-ae5c-d08d1a5ee4b8}</Project>
@@ -71,13 +78,10 @@
       <Project>{7cdaff65-14de-4f95-87b3-e453a1d7cd89}</Project>
       <Name>atg.Concesionario.Infrastructure.Crosscutting</Name>
     </ProjectReference>
-    <ProjectReference Include="..\atg.Concesionario.Infrastructure.Persistence.Seedwork\atg.Concesionario.Infrastructure.Persistence.Seedwork.csproj">
-      <Project>{0636cad1-9079-46d8-905e-e327e9792b48}</Project>
-      <Name>atg.Concesionario.Infrastructure.Persistence.Seedwork</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

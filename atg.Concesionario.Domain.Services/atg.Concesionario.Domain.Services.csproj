@@ -42,9 +42,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BudgetService.cs" />
-    <Compile Include="ClientService.cs" />
+    <Compile Include="CustomerService.cs" />
+    <Compile Include="Common\EntityService.cs" />
+    <Compile Include="Common\IEntityService.cs" />
+    <Compile Include="Common\IService.cs" />
     <Compile Include="IBudgetService.cs" />
-    <Compile Include="IClientService.cs" />
+    <Compile Include="ICustomerService.cs" />
     <Compile Include="IService.cs" />
     <Compile Include="IVehicleService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -54,6 +57,10 @@
     <ProjectReference Include="..\atg.Concesionario.Domain.Contracts\atg.Concesionario.Domain.Contracts.csproj">
       <Project>{35d6380e-5643-41c7-8546-89be1eaced5c}</Project>
       <Name>atg.Concesionario.Domain.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\atg.Concesionario.Domain\atg.Concesionario.Domain.csproj">
+      <Project>{d4e725e1-f163-417c-ae5c-d08d1a5ee4b8}</Project>
+      <Name>atg.Concesionario.Domain</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

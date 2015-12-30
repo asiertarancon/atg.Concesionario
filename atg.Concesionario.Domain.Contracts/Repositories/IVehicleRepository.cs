@@ -1,14 +1,8 @@
-﻿using atg.Concesionario.Domain.Seedwork;
-using atg.Concesionario.Domain.Vehicles;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using atg.Concesionario.Domain.Vehicles;
 
 namespace atg.Concesionario.Domain.Contracts.Repositories
 {
-    public interface IVehicleRepository : IRepository<Vehicle>
+    public interface IVehicleRepository : IGenericRepository<Vehicle>
     {
 
     }

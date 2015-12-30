@@ -1,5 +1,4 @@
 ﻿using atg.Concesionario.Domain.Customers;
-using atg.Concesionario.Domain.Seedwork;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace atg.Concesionario.Domain.Contracts.Repositories
 {
-    public interface ICustomerRepository : IRepository<Customer>
+    public interface ICustomerRepository : IGenericRepository<Customer>
     {
         Customer FindById(int id);
     }

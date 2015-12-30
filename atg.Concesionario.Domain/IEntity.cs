@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace atg.Concesionario.Domain.Services
+namespace atg.Concesionario.Domain
 {
-    public class ClientService
+    public interface IEntity<T>
     {
-
+        T Id { get; set; }
     }
 }

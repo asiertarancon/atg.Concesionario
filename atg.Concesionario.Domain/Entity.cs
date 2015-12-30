@@ -1,7 +1,12 @@
 ﻿namespace atg.Concesionario.Domain
 {
-    public class Entity
+    public abstract class BaseEntity
     {
-        public int Id { get; set; }
+
+    }
+
+    public abstract class Entity<T> : BaseEntity, IEntity<T>
+    {
+        public virtual T Id { get; set; }
     }
 }

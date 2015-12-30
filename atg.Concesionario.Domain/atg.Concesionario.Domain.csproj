@@ -43,14 +43,9 @@
     <Compile Include="Budgets\Budget.cs" />
     <Compile Include="Customers\Customer.cs" />
     <Compile Include="Entity.cs" />
+    <Compile Include="IEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Vehicles\Vehicle.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\atg.Concesionario.Domain.Seedwork\atg.Concesionario.Domain.Seedwork.csproj">
-      <Project>{7b278473-b651-435c-93ac-0b76bbba49a1}</Project>
-      <Name>atg.Concesionario.Domain.Seedwork</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -41,16 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IUnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\IBudgetRepository.cs" />
     <Compile Include="Repositories\ICustomerRepository.cs" />
+    <Compile Include="Repositories\IGenericRepository.cs" />
     <Compile Include="Repositories\IVehicleRepository.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\atg.Concesionario.Domain.Seedwork\atg.Concesionario.Domain.Seedwork.csproj">
-      <Project>{7b278473-b651-435c-93ac-0b76bbba49a1}</Project>
-      <Name>atg.Concesionario.Domain.Seedwork</Name>
-    </ProjectReference>
     <ProjectReference Include="..\atg.Concesionario.Domain\atg.Concesionario.Domain.csproj">
       <Project>{d4e725e1-f163-417c-ae5c-d08d1a5ee4b8}</Project>
       <Name>atg.Concesionario.Domain</Name>
