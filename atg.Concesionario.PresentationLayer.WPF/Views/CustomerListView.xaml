@@ -1,0 +1,96 @@
+﻿<UserControl x:Class="atg.Concesionario.PresentationLayer.WPF.Views.CustomerListView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:helper="clr-namespace:atg.Concesionario.PresentationLayer.WPF.Helper"
+             xmlns:datapager="clr-namespace:Syncfusion.UI.Xaml.Controls.DataPager;assembly=Syncfusion.SfGrid.WPF"             
+             xmlns:syncfusion="http://schemas.syncfusion.com/wpf"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300"
+             DataContext="{Binding CustomerListViewModel, Source={StaticResource Locator}}">
+   <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../Style/Style.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <helper:ExportCommand x:Key="exportCommand" />
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Border BorderBrush="#B2B2B2"
+            BorderThickness="0.5"
+            CornerRadius="5">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="0.13*" />
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Content="Add" Width="60" Height="30"/>
+                <Button Content="Edit" Width="60" Height="30" Margin="10,0,0,0"/>
+                <Button Content="Delete" Width="60" Height="30" Margin="10,0,0,0"/>
+            </StackPanel>
+            <Grid Grid.Row="1">
+                <!--  Syncfusion SfDataGrid implementation  -->
+                <syncfusion:SfDataGrid x:Name="SyncfusionGrid"
+                                       AutoGenerateColumns="False"
+                                       BorderThickness="0"
+                                       CellStyle="{StaticResource CellStyle}"
+                                       ColumnSizer="Star"
+                                       Background="White"
+                                       HeaderRowHeight="45"
+                                       ItemsSource="{Binding ElementName=sfDataPager, Path=PagedSource}"
+                                       NavigationMode="Row"
+                                       SelectionMode="Single"
+                                       RowHeight="35">
+                    <syncfusion:SfDataGrid.Columns>
+                        <!--<syncfusion:GridTextColumn MappingName="DateTime" HorizontalHeaderContentAlignment="Right" TextAlignment="Right" HeaderText="Date" ValueBinding="{Binding Path=DateTime, StringFormat='MMM dd yyyy'}" />-->
+                        
+                        <syncfusion:GridTextColumn HeaderText="Name" MappingName="Name" />
+                        <syncfusion:GridTextColumn HeaderText="Surnames" MappingName="Surnames" />
+                        <syncfusion:GridTextColumn HeaderText="Telephone" MappingName="Telephone"/>
+                        <syncfusion:GridCheckBoxColumn HeaderText="VIP" MappingName="Vip"/>
+                        <!--<syncfusion:GridTextColumn MappingName="Amount" CellStyle="{StaticResource AmountCellStyle}" HorizontalHeaderContentAlignment="Right" TextAlignment="Right" ValueBinding="{Binding Path=Amount, StringFormat='{}{0:c}'}" />-->
+                    </syncfusion:SfDataGrid.Columns>
+                    
+                </syncfusion:SfDataGrid>
+            </Grid>
+            <Grid Grid.Row="2" Background="White">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.1*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0"
+                            HorizontalAlignment="Center"
+                            Orientation="Horizontal">
+                    <Button Margin="5,5,0,5"
+                            HorizontalAlignment="Left"
+                            
+                            CommandParameter="{Binding ElementName=SyncfusionGrid}"
+                            Content="export"
+                            Style="{StaticResource ExportButton}" />
+                    <!--Command="{StaticResource exportCommand}"-->
+                    <!--
+                        <Button Margin="10,0,0,5"
+                        CommandTarget="{Binding ElementName=SyncfusionGrid}"
+                        Content="add"
+                        Style="{StaticResource AddButton}" />
+                    -->
+                </StackPanel>
+                <!--  Syncfusion SfDataPager implementation  -->
+                <Viewbox Grid.Column="1" HorizontalAlignment="Right">
+                    <datapager:SfDataPager x:Name="sfDataPager"
+                                           Height="50"
+                                           Margin="0,0,20,0"
+                                           HorizontalAlignment="Right"
+                                           AutoEllipsisMode="None"
+                                           DisplayMode="PreviousNextNumeric"
+                                           NumericButtonCount="5"
+                                           PageSize="10"
+                                           Source="{Binding Customers}" />
+                </Viewbox>
+            </Grid>
+        </Grid>
+    </Border>
+</UserControl>

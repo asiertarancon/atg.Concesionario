@@ -54,6 +54,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AuthorizedDealerDBContext.cs" />
+    <Compile Include="Migrations\201512311904171_InitialScript.cs" />
+    <Compile Include="Migrations\201512311904171_InitialScript.Designer.cs">
+      <DependentUpon>201512311904171_InitialScript.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\CustomerRepository.cs" />
     <Compile Include="Repositories\BudgetRepository.cs" />
@@ -79,7 +84,11 @@
       <Name>atg.Concesionario.Infrastructure.Crosscutting</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201512311904171_InitialScript.resx">
+      <DependentUpon>201512311904171_InitialScript.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />

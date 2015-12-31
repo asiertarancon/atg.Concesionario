@@ -1,6 +1,4 @@
-﻿using Syncfusion.Windows.Shared;
-using Syncfusion.Windows.Tools.Controls;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,21 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace atg.Concesionario.PresentationLayer.WPF
+namespace atg.Concesionario.PresentationLayer.WPF.Views
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Lógica de interacción para CustomerListView.xaml
     /// </summary>
-    public partial class MainWindow : ChromelessWindow
+    public partial class CustomerListView : UserControl
     {
-        public MainWindow()
+        public CustomerListView()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            columnPanel.Width = new GridLength(columnPanel.Width.Value == 400 ? 80 : 400);
         }
     }
 }

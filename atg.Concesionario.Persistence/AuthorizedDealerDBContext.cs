@@ -12,8 +12,13 @@ namespace atg.Concesionario.Persistence
 {
     public class AuthorizedDealerDBContext : DbContext
     {
+        public AuthorizedDealerDBContext() : base("ConcesionarioAsier")
+        {
+
+        }
         public DbSet<Vehicle> Vehicles { get; set; }
         public DbSet<Customer> Customers { get; set; } 
         public DbSet<Budget> Budgets { get; set; }
     }
+
 }

@@ -8,7 +8,7 @@ namespace atg.Concesionario.Domain.Contracts
 {
     public interface IUnitOfWork : IDisposable
     {
-        int Commit();
+        void Commit();
         void RollbackChanges();        
     }
 }
