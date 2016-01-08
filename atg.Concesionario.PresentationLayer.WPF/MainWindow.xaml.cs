@@ -29,7 +29,9 @@ namespace atg.Concesionario.PresentationLayer.WPF
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            columnPanel.Width = new GridLength(columnPanel.Width.Value == 400 ? 80 : 400);
+            columnPanel.Width = new GridLength(columnPanel.Width.Value == 220 ? 60 : 220);
+
+            
         }
     }
 }

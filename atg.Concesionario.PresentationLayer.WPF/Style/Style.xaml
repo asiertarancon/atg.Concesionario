@@ -1353,4 +1353,12 @@
             </Setter.Value>
         </Setter>
     </Style>
+    
+     <Style x:Key="TitleView" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="35" />
+            <Setter Property="FontFamily" Value="Segoe UI" />
+            <Setter Property="FontWeight" Value="Light" />
+            <Setter Property="Foreground" Value="#515151" />
+            <Setter Property="Margin" Value="30,0,0,0"/>
+        </Style>
 </ResourceDictionary>

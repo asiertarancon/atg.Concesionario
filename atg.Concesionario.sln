@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "atg.Concesionario.Domain.Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "atg.Concesionario.Domain.Services", "atg.Concesionario.Domain.Services\atg.Concesionario.Domain.Services.csproj", "{1F0E5C56-E7A8-409C-BC03-AB88C30663A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "atg.Concesionario.Test", "atg.Concesionario.Test\atg.Concesionario.Test.csproj", "{C60E57E7-69C1-4DD9-AEC1-C8B4478C0A95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{1F0E5C56-E7A8-409C-BC03-AB88C30663A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F0E5C56-E7A8-409C-BC03-AB88C30663A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F0E5C56-E7A8-409C-BC03-AB88C30663A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C60E57E7-69C1-4DD9-AEC1-C8B4478C0A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C60E57E7-69C1-4DD9-AEC1-C8B4478C0A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C60E57E7-69C1-4DD9-AEC1-C8B4478C0A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C60E57E7-69C1-4DD9-AEC1-C8B4478C0A95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,5 +97,6 @@ Global
 		{17DD6CBA-D04B-4350-A873-4261250AE460} = {931A531B-98AA-48E1-B3AE-62085F5E5FB6}
 		{35D6380E-5643-41C7-8546-89BE1EACED5C} = {F591EA63-4C17-462E-9D57-C83D5F6B1D96}
 		{1F0E5C56-E7A8-409C-BC03-AB88C30663A9} = {F591EA63-4C17-462E-9D57-C83D5F6B1D96}
+		{C60E57E7-69C1-4DD9-AEC1-C8B4478C0A95} = {60B933AB-8C53-4912-BF18-C561D12D0674}
 	EndGlobalSection
 EndGlobal

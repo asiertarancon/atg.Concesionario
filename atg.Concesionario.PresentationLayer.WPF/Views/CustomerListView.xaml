@@ -23,15 +23,18 @@
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
                 <RowDefinition Height="0.13*" />
             </Grid.RowDefinitions>
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+            <TextBlock Text="Customers" Style="{StaticResource TitleView}"/>
+            <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right"
+                        Margin="0,10,0,0">
                 <Button Content="Add" Width="60" Height="30"/>
                 <Button Content="Edit" Width="60" Height="30" Margin="10,0,0,0"/>
                 <Button Content="Delete" Width="60" Height="30" Margin="10,0,0,0"/>
             </StackPanel>
-            <Grid Grid.Row="1">
+            <Grid Grid.Row="2">
                 <!--  Syncfusion SfDataGrid implementation  -->
                 <syncfusion:SfDataGrid x:Name="SyncfusionGrid"
                                        AutoGenerateColumns="False"
@@ -56,7 +59,7 @@
                     
                 </syncfusion:SfDataGrid>
             </Grid>
-            <Grid Grid.Row="2" Background="White">
+            <Grid Grid.Row="3" Background="White">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="0.1*" />
                     <ColumnDefinition Width="*" />

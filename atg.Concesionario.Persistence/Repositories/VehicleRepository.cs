@@ -1,5 +1,6 @@
 ﻿using atg.Concesionario.Domain.Contracts.Repositories;
 using atg.Concesionario.Domain.Vehicles;
+using System.Data.Entity;
 
 namespace atg.Concesionario.Persistence.Repositories
 {
@@ -9,7 +10,7 @@ namespace atg.Concesionario.Persistence.Repositories
         /// Create a new instance
         /// </summary>
         /// <param name="context">Associated context</param>
-        public VehicleRepository(AuthorizedDealerDBContext context)
+        public VehicleRepository(DbContext context)
             : base(context)
         {
 

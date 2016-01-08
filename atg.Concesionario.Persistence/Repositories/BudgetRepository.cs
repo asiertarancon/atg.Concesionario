@@ -8,6 +8,7 @@ using atg.Concesionario.Domain.Budgets;
 using atg.Concesionario.Persistence.UnitOfWork;
 using System.Data.SqlClient;
 using System.Data;
+using System.Data.Entity;
 
 namespace atg.Concesionario.Persistence.Repositories
 {
@@ -17,7 +18,7 @@ namespace atg.Concesionario.Persistence.Repositories
         /// Create a new instance
         /// </summary>
         /// <param name="context">Associated context</param>
-        public BudgetRepository(AuthorizedDealerDBContext dbContext) : base(dbContext)
+        public BudgetRepository(DbContext dbContext) : base(dbContext)
         {
 
         }
